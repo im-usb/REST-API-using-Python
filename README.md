@@ -39,6 +39,29 @@ To stop a container we use
 docker stop MongoContainerName
 ```
 
+Step 4: Creating MongoDB Interactor
+-----------------------------------
+In this step, we will be creating API using Flask and pymongo.
+
+ 1. First, install and import libraries like Flask and pymongo
+ 2. Create MongoDB interactor
+ 3. Creating a Flask Server
+ 4. Defining CRUD HTTP Methods.
+ 
+Step 5: Deploying our code on Docker
+------------------------------------
+Within this particular step, we will get to know on how to deploy code on Docker and how to link 2 Docker containers internally.
+ 1. Dockerfile is a configuration file for our program. It defines the basic working environment for our application and also defines how our applications are going to interact with external environments.
+
+ 2. After creating our Dockerfile, we need to create a docker-compose file. A Docker-Compose file allows us to link multiple containers and run them at the same time.
+      
+Time to run the containers-
+```bash
+docker-compose run --build    
+```
+
 ## 1. How to deploy the docker container.
 ## 2. How to access APIs on localhost.
+In order to access APIs on localhost, we will use Postman. It is a great tool when trying to dissect RESTful APIs made by others or test ones you have made yourself. It offers a sleek user interface with which to make HTML requests, without the hassle of writing a bunch of code just to test an API's functionality.
+![banner_postman](https://mms.businesswire.com/media/20200206005191/en/728482/22/pm-logo-vert.jpg)
 ## 3. How to use these APIs to list, add, delete or update products.
