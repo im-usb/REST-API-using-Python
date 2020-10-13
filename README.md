@@ -7,7 +7,6 @@ To develop an API interface for MongoDB and deploy our program to Docker.
 2. Install MongoDBCompass Community
 3. Install Postman
 
-## 1. How to deploy the docker container.
 ### Getting Started with docker and mongodb
 
 Step 1: Setting up Docker
@@ -39,5 +38,7 @@ To stop a container we use
 ```bash
 docker stop MongoContainerName
 ```
+
+## 1. How to deploy the docker container.
 ## 2. How to access APIs on localhost.
 ## 3. How to use these APIs to list, add, delete or update products.
