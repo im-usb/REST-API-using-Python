@@ -65,6 +65,9 @@ In order to access APIs on localhost, we will use Postman. It is a great tool wh
 ![banner_postman](https://mms.businesswire.com/media/20200206005191/en/728482/22/pm-logo-vert.jpg)
 ## 3. How to use these APIs to list, add, delete or update products.
 
+Following images depict the ways in which we can use these APIs to list, add, delete or update products.
+-
+
 ### 1. LIST
 
 ![banner_postman](https://github.com/im-usb/REST-API-using-Python/blob/main/Images/Get.png)
